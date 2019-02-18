@@ -17,6 +17,7 @@ services:
       --unsafe-expose   
       --jsonrpc-cors all
       --no-persistent-txqueue
+      -lminer=trace,rpc=trace,txqueue=trace
     ports:
       - 8545:8545
     networks:
